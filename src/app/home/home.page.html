@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+   
+    <ion-avatar class="image-center">
+      <img src="assets/logo.png" alt="Texto alternativo" style="height: 100px; width: 100px;">
+  </ion-avatar>
+  <br><br>
+    <ion-title style="text-align:center">
+      Alerta Natural
+    </ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title style="text-align:center" size="large">inicio de sesion</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-button [routerLink]="['/registration']"expand="block"color="danger">Registro</ion-button>
+  
+  <p class="centrado">o ¿Ya eres usuario?</p>
+
+  <ion-button [routerLink]="['/login']" expand="block" color="danger">Iniciar sesión</ion-button>
+</ion-content>

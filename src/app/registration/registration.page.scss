@@ -1,0 +1,138 @@
+
+$white-color: rgb(56, 56, 56);
+$height100: 100%;
+$text-align: center;
+
+
+ion-grid {
+    width:100%;
+    height: $height100;
+   
+}
+
+
+ion-row {
+    height: $height100;
+}
+
+
+ion-col {
+    border: 1px solid #141313;
+    background: $white-color;
+}
+
+
+ion-button {
+    font-weight: 300;
+}
+
+
+@media (min-width: 240px) and (max-width: 768px) {
+    ion-grid {
+        background: $white-color;
+    }
+    ion-col {
+        border: none;
+    }
+}
+
+  
+  .form{
+  color:rgb(161, 59, 59);
+  flex-direction: column;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 15px;
+  
+  }
+  
+  .form:hover{
+      color:rgb(197, 71, 21);
+      text-align: center;
+      }
+  
+  
+  .btn{
+      height: 3em;
+      flex-direction: column;
+      text-align: center;
+      color: #cc6622;
+
+  }
+ 
+
+  ion-menu::part(backdrop) {
+      background-color: rgba(241, 10, 10, 0.5);
+      text-align: right;  
+  }
+    
+    ion-menu::part(container) {
+      border-radius: 0 40px 40px 0;
+      text-align:start;
+      box-shadow: 6px 0px 16px rgba(187, 7, 16, 0.18);
+    }
+  
+    .btn_eye_icon{
+      position: absolute;
+      right: 0;
+      bottom: 4px;
+      background: transparent;
+      ion-icon{
+          font-size: 22px;
+          color:#cc2222;
+      }
+  }
+  
+  .btn_eye_icon:focus{
+      outline: none  !important;
+  }
+  
+  .type-toggle {
+      padding-inline-start: 0.5rem;
+  .show-option,
+      .hide-option {
+        font-size: 1.2rem;
+        display: block;
+  // In case you want to use text instead of icons
+        &:not(ion-icon) {
+          text-transform: uppercase;
+          font-size: 1rem;
+        }
+      }
+    }
+  
+  .regreso{
+    height: 50px; 
+    width: 100px;
+  
+  }
+  
+    .icon {
+      font-size: 50px;
+      color: orange;
+      }
+  
+      .fila{
+  position: fixed;
+  text-align: left;
+  
+     }
+  
+    .logo{
+      width:20 px;
+      height: 30 px;
+    }
+  
+    .login{
+      text-align: center;
+      
+    color: rgb(167, 12, 12);
+      padding-bottom: -25px;
+      flex-direction: column;
+    }
+  
+    .ion-padding{
+        color: #cc2222;
+    }
+  

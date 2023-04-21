@@ -1,0 +1,76 @@
+<ion-app>
+  <ion-menu contentId="main-content">
+    <ion-header>
+      <ion-toolbar color="danger">
+        <ion-title>Alerta Natural</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding"><ion-button class="btn" color="danger" href="http://localhost:8100/home">Inicio</ion-button><br><br>
+      <ion-button class="btn" color="danger" href="http://localhost:8100/registration">Registrarse</ion-button>
+    </ion-content>
+   
+  
+  </ion-menu>
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button class="btn"></ion-menu-button>
+        </ion-buttons>
+        <ion-title>
+          <ion-title >
+         
+            <img src="assets/logo.png" alt="Texto alternativo" style="height: 50px; width: 50px;">
+          
+        </ion-title>
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+      <ion-app>
+
+    
+      <ion-grid>
+        <ion-row justify-content-center>
+          <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+           <div class="usuario" style="text-align: center; padding-left: 250px;">
+
+
+           </div>
+            <div padding style="padding-top: 70px;">
+              <ion-item fill="outline" class="form">
+                <ion-avatar slot="start">
+                  <img src="assets/images.png" alt="Texto alternativo">
+                </ion-avatar>
+                <ion-label position="floating">Nombre</ion-label>
+                <ion-input placeholder="Ingresa tu Nombre"></ion-input>
+              </ion-item><br>
+              
+              <ion-item fill="outline" class="form" >
+                <ion-avatar slot="start">
+                  <img src="assets/images.jpeg" alt="Texto alternativo">
+                </ion-avatar>
+               <ion-label style="margin-right: 10px;" position="floating">Contraseña</ion-label>
+                <ion-input type="password" placeholder="Ingresa tu contraseña"></ion-input>
+            
+         
+              </ion-item>
+            </div>
+      
+    
+            <ion-content class="btn">
+            
+              <ion-button class="signup" color="danger">
+                Logearse
+              </ion-button>
+          </ion-content>
+          <ion-content class="btn">
+          <ion-label class="login">¿Aun no eres miembro? <a class="btn" href="http://localhost:8100/registration">Registrate</a></ion-label>  
+        </ion-content> 
+        <ion-content class="btn">
+          <ion-label class="login">¿Olvidaste tu contraseña? <a class="btn" href="http://localhost:8100/forgot-password">Recuperar contraseña</a></ion-label>  
+        </ion-content> 
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+</ion-app>
